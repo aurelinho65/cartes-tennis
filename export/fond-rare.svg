@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 830" width="600" height="830" data-rarete="rare">
+<defs><clipPath id="fond-rare-clip"><path d="M300 0C390 0 475 14 528.4 45.3C538 72 572 88.4 600 88.4L600 708C600 745 586 760 558 766C470 786.5 350 804 300 829.5C250 804 130 786.5 42 766C14 760 0 745 0 708L0 88.4C28 88.4 62 72 71.6 45.3C125 14 210 0 300 0Z"/></clipPath>
+<clipPath id="fond-rare-haut"><rect width="600" height="516"/></clipPath>
+<clipPath id="fond-rare-clipDrapeau"><rect x="164" y="712" width="36" height="24" rx="3"/></clipPath>
+<linearGradient id="fond-rare-fond" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c8673a"/><stop offset="0.5" stop-color="#9b4321"/><stop offset="1" stop-color="#5b220e"/></linearGradient>
+<linearGradient id="fond-rare-mur" x1="0" y1="0" x2="0" y2="174.52272727272728" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3a1609"/><stop offset="1" stop-color="#5f2810"/></linearGradient>
+<linearGradient id="fond-rare-fonduCourt" x1="0" y1="90" x2="0" y2="516" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.42" stop-color="#fff" stop-opacity="0.55"/><stop offset="1" stop-color="#fff"/></linearGradient>
+<mask id="fond-rare-masqueCourt"><rect width="600" height="516" fill="url(#fond-rare-fonduCourt)"/></mask>
+<linearGradient id="fond-rare-panneau" x1="0" y1="516" x2="0" y2="830" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5a2410" stop-opacity="0"/><stop offset="0.5" stop-color="#542210"/><stop offset="1" stop-color="#341308"/></linearGradient>
+<linearGradient id="fond-rare-cadre" x1="0" y1="0" x2="600" y2="830" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffd9b3"/><stop offset="0.3" stop-color="#d08550"/><stop offset="0.62" stop-color="#7a3a18"/><stop offset="1" stop-color="#f0b98a"/></linearGradient>
+<linearGradient id="fond-rare-bande" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff4e8"/><stop offset="1" stop-color="#e0c7b0"/></linearGradient>
+<linearGradient id="fond-rare-reflet" x1="0" y1="0" x2="1" y2="0.62"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.42" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.13"/><stop offset="0.58" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<radialGradient id="fond-rare-halo" cx="300" cy="280" r="230" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f2a575" stop-opacity="0.3"/><stop offset="1" stop-color="#f2a575" stop-opacity="0"/></radialGradient>
+<radialGradient id="fond-rare-vignette" cx="300" cy="380" r="520" gradientUnits="userSpaceOnUse"><stop offset="0.55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.55"/></radialGradient>
+<linearGradient id="fond-rare-fonduPhoto" x1="0" y1="52" x2="0" y2="516" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="0.8" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<mask id="fond-rare-masquePhoto"><rect x="0" y="0" width="600" height="516" fill="url(#fond-rare-fonduPhoto)"/></mask>
+<pattern id="fond-rare-cordage" width="14" height="14" patternUnits="userSpaceOnUse">
+<path stroke="#ffe2c8" stroke-width="1.1" stroke-linecap="round" d="M3.5 0V1.2999999999999998M3.5 5.7V14M10.5 0V14"/>
+<path stroke="#ffe2c8" stroke-width="1.1" stroke-linecap="round" d="M0 3.5H14M0 10.5H1.2999999999999998M5.7 10.5H8.3M12.7 10.5H14"/>
+</pattern>
+<pattern id="fond-rare-mailles" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+<path d="M0 0H9M0 0V9" stroke="#fff4e8" stroke-width="0.7"/></pattern>
+<filter id="fond-rare-ombre" x="-20%" y="-30%" width="140%" height="160%">
+<feDropShadow dx="0" dy="1.6" stdDeviation="1.8" flood-color="#000" flood-opacity="0.55"/></filter>
+<filter id="fond-rare-grain" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="1.15" numOctaves="3" seed="5" result="b"/>
+<feColorMatrix in="b" type="matrix" values="0 0 0 0 0.27 0 0 0 0 0.09 0 0 0 0 0.02 0.9 0 0 0 -0.32"/>
+<feComposite in2="SourceAlpha" operator="in"/></filter><filter id="fond-rare-grainClair" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+<feTurbulence type="fractalNoise" baseFrequency="2.3" numOctaves="1" seed="9" result="b"/>
+<feColorMatrix in="b" type="matrix" values="0 0 0 0 1 0 0 0 0 0.84 0 0 0 0 0.71 0.55 0 0 0 -0.19"/>
+<feComposite in2="SourceAlpha" operator="in"/></filter><filter id="fond-rare-usure" x="-2%" y="-2%" width="104%" height="104%">
+<feTurbulence type="fractalNoise" baseFrequency="1.1" numOctaves="2" seed="11" result="b"/>
+<feColorMatrix in="b" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2.2 0 0 0 -0.7" result="m"/>
+<feComposite in="SourceGraphic" in2="m" operator="in"/></filter></defs>
+<g clip-path="url(#fond-rare-clip)">
+<path d="M300 0C390 0 475 14 528.4 45.3C538 72 572 88.4 600 88.4L600 708C600 745 586 760 558 766C470 786.5 350 804 300 829.5C250 804 130 786.5 42 766C14 760 0 745 0 708L0 88.4C28 88.4 62 72 71.6 45.3C125 14 210 0 300 0Z" fill="url(#fond-rare-fond)"/>
+<g clip-path="url(#fond-rare-haut)">
+<rect width="600" height="175.52" fill="url(#fond-rare-mur)"/>
+<g mask="url(#fond-rare-masqueCourt)">
+<path d="M-3420 515.96L4020 515.96L1145.45 174.52L-545.45 174.52Z" fill="#b85a30"/><path d="M-43.17 515.96L643.17 515.96L401.02 204.17L198.98 204.17Z" fill="#be5f33"/>
+<path d="M-3420 515.96L4020 515.96L1145.45 174.52L-545.45 174.52Z" fill="#000" filter="url(#fond-rare-grain)" opacity=".55"/>
+<path d="M-3420 515.96L4020 515.96L1145.45 174.52L-545.45 174.52Z" fill="#000" filter="url(#fond-rare-grainClair)" opacity=".35"/>
+<path d="M167.73 368.67Q300 265.09 432.27 368.67M160.2 290.7Q300 231.96 439.8 290.7M212.09 238.97Q300 203.8 387.91 238.97M196.67 215.72Q300 189.37 403.33 215.72" fill="none" stroke="#e48c5c" stroke-width="5" stroke-linecap="round" opacity=".22"/>
+<path d="M-43.17 515.96L-40.07 515.96L199.89 204.17L198.98 204.17ZM640.07 515.96L643.17 515.96L401.02 204.17L400.11 204.17ZM41.77 515.96L44.87 515.96L224.9 204.17L223.98 204.17ZM555.13 515.96L558.23 515.96L376.02 204.17L375.1 204.17ZM198.38 204.94L401.62 204.94L401.02 204.17L198.98 204.17ZM188.1 267.9L411.9 267.9L411.41 267.05L188.59 267.05ZM298.45 515.96L301.55 515.96L300.68 267.05L299.32 267.05ZM299.54 205.88L300.46 205.88L300.46 204.94L299.54 204.94Z" fill="#f6ebdc" opacity="0.78" filter="url(#fond-rare-usure)"/>
+</g>
+<rect y="173.52" width="600" height="2.2" fill="#f6ebdc" opacity=".12"/>
+</g>
+
+<rect width="600" height="516" fill="url(#fond-rare-halo)"/>
+
+
+<rect y="516" width="600" height="314" fill="url(#fond-rare-panneau)"/>
+<rect y="516" width="600" height="314" fill="url(#fond-rare-cordage)" opacity="0.08"/>
+<rect y="521" width="600" height="16" fill="url(#fond-rare-mailles)" opacity=".14"/>
+<rect y="512" width="600" height="9" fill="url(#fond-rare-bande)"/>
+<rect y="512" width="600" height="1.4" fill="#fff" opacity=".7"/>
+<rect y="521" width="600" height="5" fill="#000" opacity=".28"/>
+<rect width="600" height="830" fill="url(#fond-rare-vignette)"/>
+
+<rect width="600" height="830" fill="url(#fond-rare-reflet)" style="mix-blend-mode:soft-light"/>
+<path d="M300 0C390 0 475 14 528.4 45.3C538 72 572 88.4 600 88.4L600 708C600 745 586 760 558 766C470 786.5 350 804 300 829.5C250 804 130 786.5 42 766C14 760 0 745 0 708L0 88.4C28 88.4 62 72 71.6 45.3C125 14 210 0 300 0Z" fill="none" stroke="url(#fond-rare-cadre)" stroke-width="13"/>
+<path d="M300 6.5C390 6.5 473.7 20.5 526.13 52.13C536.05 77.85 568.75 94.9 593.5 94.9L593.5 706.05C593.5 741.1 581.45 753.83 554.1 759.83C470 780 350 797.17 300 822.02C250 797.17 130 780 45.9 759.83C18.55 753.83 6.5 741.1 6.5 706.05L6.5 94.9C31.25 94.9 63.95 77.85 73.88 52.13C126.3 20.5 210 6.5 300 6.5Z" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+<path d="M300 9.5C390 9.5 473.1 23.5 525.08 55.27C535.15 80.55 567.25 97.9 590.5 97.9L590.5 705.15C590.5 739.3 579.35 750.98 552.3 756.98C470 777 350 794.02 300 818.58C250 794.02 130 777 47.7 756.98C20.65 750.98 9.5 739.3 9.5 705.15L9.5 97.9C32.75 97.9 64.85 80.55 74.92 55.27C126.9 23.5 210 9.5 300 9.5Z" fill="none" stroke="url(#fond-rare-cadre)" stroke-width="1.2" opacity="0.75"/><path d="M300 14C390 14 472.2 28 523.5 60C533.8 84.6 565 102.4 586 102.4L586 703.8C586 736.6 576.2 746.7 549.6 752.7C470 772.5 350 789.3 300 813.4C250 789.3 130 772.5 50.4 752.7C23.8 746.7 14 736.6 14 703.8L14 102.4C35 102.4 66.2 84.6 76.5 60C127.8 28 210 14 300 14Z" fill="none" stroke="url(#fond-rare-cadre)" stroke-width="0.7" opacity="0.45"/>
+
+</g>
+
+
+</svg>

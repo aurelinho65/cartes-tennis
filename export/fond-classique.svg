@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 830" width="600" height="830" data-rarete="classique">
+<defs><clipPath id="fond-classique-clip"><path d="M300 0C390 0 475 14 528.4 45.3C538 72 572 88.4 600 88.4L600 708C600 745 586 760 558 766C470 786.5 350 804 300 829.5C250 804 130 786.5 42 766C14 760 0 745 0 708L0 88.4C28 88.4 62 72 71.6 45.3C125 14 210 0 300 0Z"/></clipPath>
+<clipPath id="fond-classique-haut"><rect width="600" height="516"/></clipPath>
+<clipPath id="fond-classique-clipDrapeau"><rect x="164" y="712" width="36" height="24" rx="3"/></clipPath>
+<linearGradient id="fond-classique-fond" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f6d4c"/><stop offset="0.5" stop-color="#1b4732"/><stop offset="1" stop-color="#0f2a1d"/></linearGradient>
+<linearGradient id="fond-classique-mur" x1="0" y1="0" x2="0" y2="174.52272727272728" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0c2318"/><stop offset="1" stop-color="#163b28"/></linearGradient>
+<linearGradient id="fond-classique-fonduCourt" x1="0" y1="90" x2="0" y2="516" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.42" stop-color="#fff" stop-opacity="0.55"/><stop offset="1" stop-color="#fff"/></linearGradient>
+<mask id="fond-classique-masqueCourt"><rect width="600" height="516" fill="url(#fond-classique-fonduCourt)"/></mask>
+<linearGradient id="fond-classique-panneau" x1="0" y1="516" x2="0" y2="830" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#143826" stop-opacity="0"/><stop offset="0.5" stop-color="#10301f"/><stop offset="1" stop-color="#0b2116"/></linearGradient>
+<linearGradient id="fond-classique-cadre" x1="0" y1="0" x2="600" y2="830" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f6f1e1"/><stop offset="0.35" stop-color="#d8cfb1"/><stop offset="0.6" stop-color="#9a906f"/><stop offset="1" stop-color="#e9e2c9"/></linearGradient>
+<linearGradient id="fond-classique-bande" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f1e6"/><stop offset="1" stop-color="#cfc8b2"/></linearGradient>
+<linearGradient id="fond-classique-reflet" x1="0" y1="0" x2="1" y2="0.62"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.42" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.13"/><stop offset="0.58" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<radialGradient id="fond-classique-halo" cx="300" cy="280" r="230" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7fb38f" stop-opacity="0.32"/><stop offset="1" stop-color="#7fb38f" stop-opacity="0"/></radialGradient>
+<radialGradient id="fond-classique-vignette" cx="300" cy="380" r="520" gradientUnits="userSpaceOnUse"><stop offset="0.55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.55"/></radialGradient>
+<linearGradient id="fond-classique-fonduPhoto" x1="0" y1="52" x2="0" y2="516" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="0.8" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<mask id="fond-classique-masquePhoto"><rect x="0" y="0" width="600" height="516" fill="url(#fond-classique-fonduPhoto)"/></mask>
+<pattern id="fond-classique-cordage" width="14" height="14" patternUnits="userSpaceOnUse">
+<path stroke="#e9f3e6" stroke-width="1.1" stroke-linecap="round" d="M3.5 0V1.2999999999999998M3.5 5.7V14M10.5 0V14"/>
+<path stroke="#e9f3e6" stroke-width="1.1" stroke-linecap="round" d="M0 3.5H14M0 10.5H1.2999999999999998M5.7 10.5H8.3M12.7 10.5H14"/>
+</pattern>
+<pattern id="fond-classique-mailles" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+<path d="M0 0H9M0 0V9" stroke="#f4f1e6" stroke-width="0.7"/></pattern>
+<filter id="fond-classique-ombre" x="-20%" y="-30%" width="140%" height="160%">
+<feDropShadow dx="0" dy="1.6" stdDeviation="1.8" flood-color="#000" flood-opacity="0.55"/></filter>
+</defs>
+<g clip-path="url(#fond-classique-clip)">
+<path d="M300 0C390 0 475 14 528.4 45.3C538 72 572 88.4 600 88.4L600 708C600 745 586 760 558 766C470 786.5 350 804 300 829.5C250 804 130 786.5 42 766C14 760 0 745 0 708L0 88.4C28 88.4 62 72 71.6 45.3C125 14 210 0 300 0Z" fill="url(#fond-classique-fond)"/>
+<g clip-path="url(#fond-classique-haut)">
+<rect width="600" height="175.52" fill="url(#fond-classique-mur)"/>
+<g mask="url(#fond-classique-masqueCourt)">
+<path d="M-3420 515.96L4020 515.96L1145.45 174.52L-545.45 174.52Z" fill="#2b6747"/><path d="M-43.17 515.96L643.17 515.96L401.02 204.17L198.98 204.17Z" fill="#2e6c4a"/>
+<path d="M-3420 515.96L4020 515.96L3183.72 416.63L-2583.72 416.63ZM-2054.43 353.76L2654.43 353.76L2289.3 310.39L-1689.3 310.39ZM-1422.22 278.66L2022.22 278.66L1818.37 254.45L-1218.37 254.45ZM-1057.66 235.36L1657.66 235.36L1527.72 219.93L-927.72 219.93ZM-820.48 207.19L1420.48 207.19L1330.47 196.5L-730.47 196.5ZM-653.85 187.4L1253.85 187.4L1187.83 179.56L-587.83 179.56Z" fill="#4f8d64" opacity=".22"/>
+<path d="M-43.17 515.96L-40.07 515.96L199.89 204.17L198.98 204.17ZM640.07 515.96L643.17 515.96L401.02 204.17L400.11 204.17ZM41.77 515.96L44.87 515.96L224.9 204.17L223.98 204.17ZM555.13 515.96L558.23 515.96L376.02 204.17L375.1 204.17ZM198.38 204.94L401.62 204.94L401.02 204.17L198.98 204.17ZM188.1 267.9L411.9 267.9L411.41 267.05L188.59 267.05ZM298.45 515.96L301.55 515.96L300.68 267.05L299.32 267.05ZM299.54 205.88L300.46 205.88L300.46 204.94L299.54 204.94Z" fill="#efe9d4" opacity="0.62"/>
+</g>
+<rect y="173.52" width="600" height="2.2" fill="#efe9d4" opacity=".12"/>
+</g>
+
+<rect width="600" height="516" fill="url(#fond-classique-halo)"/>
+
+
+<rect y="516" width="600" height="314" fill="url(#fond-classique-panneau)"/>
+<rect y="516" width="600" height="314" fill="url(#fond-classique-cordage)" opacity="0.07"/>
+<rect y="521" width="600" height="16" fill="url(#fond-classique-mailles)" opacity=".14"/>
+<rect y="512" width="600" height="9" fill="url(#fond-classique-bande)"/>
+<rect y="512" width="600" height="1.4" fill="#fff" opacity=".7"/>
+<rect y="521" width="600" height="5" fill="#000" opacity=".28"/>
+<rect width="600" height="830" fill="url(#fond-classique-vignette)"/>
+
+<rect width="600" height="830" fill="url(#fond-classique-reflet)" style="mix-blend-mode:soft-light"/>
+<path d="M300 0C390 0 475 14 528.4 45.3C538 72 572 88.4 600 88.4L600 708C600 745 586 760 558 766C470 786.5 350 804 300 829.5C250 804 130 786.5 42 766C14 760 0 745 0 708L0 88.4C28 88.4 62 72 71.6 45.3C125 14 210 0 300 0Z" fill="none" stroke="url(#fond-classique-cadre)" stroke-width="13"/>
+<path d="M300 6.5C390 6.5 473.7 20.5 526.13 52.13C536.05 77.85 568.75 94.9 593.5 94.9L593.5 706.05C593.5 741.1 581.45 753.83 554.1 759.83C470 780 350 797.17 300 822.02C250 797.17 130 780 45.9 759.83C18.55 753.83 6.5 741.1 6.5 706.05L6.5 94.9C31.25 94.9 63.95 77.85 73.88 52.13C126.3 20.5 210 6.5 300 6.5Z" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+<path d="M300 10C390 10 473 24 524.9 55.8C535 81 567 98.4 590 98.4L590 705C590 739 579 750.5 552 756.5C470 776.5 350 793.5 300 818C250 793.5 130 776.5 48 756.5C21 750.5 10 739 10 705L10 98.4C33 98.4 65 81 75.1 55.8C127 24 210 10 300 10Z" fill="none" stroke="url(#fond-classique-cadre)" stroke-width="1.1" opacity="0.55"/>
+
+</g>
+
+
+</svg>

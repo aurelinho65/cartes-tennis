@@ -1,0 +1,9 @@
+<!doctype html><meta charset="utf-8"><style>body{margin:0;background:#16181c;display:flex;gap:16px;padding:16px}svg{width:300px;height:auto;align-self:flex-start}</style>
+<script type="module">
+import { creerCarte } from '../src/carte.js';
+import { JOUEURS } from '../src/joueurs.js';
+// Photo de test : silhouette grise opaque sur fond transparent, plus large que la zone pour vérifier le cadrage.
+const p = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 468"><defs><linearGradient id="g" x2="0" y2="1"><stop offset="0" stop-color="#d9c2a8"/><stop offset="1" stop-color="#6b5a4a"/></linearGradient></defs><circle cx="220" cy="140" r="70" fill="url(#g)"/><path d="M60 468C70 300 140 230 220 230S370 300 380 468Z" fill="#2c3a55"/></svg>`;
+const photo = 'data:image/svg+xml,' + encodeURIComponent(p);
+for (const r of ['rare', 'legende']) document.body.insertAdjacentHTML('beforeend', creerCarte({ rarete: r, id: 'p' + r, joueur: JOUEURS[r], options: { photo, polices: '' } }));
+</script>

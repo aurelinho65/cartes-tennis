@@ -1,0 +1,12 @@
+{
+  "name": "cartes-tennis",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Match Point : système de cartes de tennis à collectionner (SVG)",
+  "scripts": {
+    "start": "node scripts/serveur.mjs",
+    "export": "node scripts/exporter.mjs",
+    "verifier": "node scripts/verifier.mjs"
+  }
+}

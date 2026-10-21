@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 830" width="600" height="830" data-rarete="elite">
+<defs><clipPath id="fond-elite-clip"><path d="M300 0C390 0 475 14 528.4 45.3C538 72 572 88.4 600 88.4L600 708C600 745 586 760 558 766C470 786.5 350 804 300 829.5C250 804 130 786.5 42 766C14 760 0 745 0 708L0 88.4C28 88.4 62 72 71.6 45.3C125 14 210 0 300 0Z"/></clipPath>
+<clipPath id="fond-elite-haut"><rect width="600" height="516"/></clipPath>
+<clipPath id="fond-elite-clipDrapeau"><rect x="164" y="712" width="36" height="24" rx="3"/></clipPath>
+<linearGradient id="fond-elite-fond" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#143f84"/><stop offset="0.5" stop-color="#0b2658"/><stop offset="1" stop-color="#050e29"/></linearGradient>
+<linearGradient id="fond-elite-mur" x1="0" y1="0" x2="0" y2="174.52272727272728" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#040b20"/><stop offset="1" stop-color="#0a1b44"/></linearGradient>
+<linearGradient id="fond-elite-fonduCourt" x1="0" y1="90" x2="0" y2="516" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.42" stop-color="#fff" stop-opacity="0.55"/><stop offset="1" stop-color="#fff"/></linearGradient>
+<mask id="fond-elite-masqueCourt"><rect width="600" height="516" fill="url(#fond-elite-fonduCourt)"/></mask>
+<linearGradient id="fond-elite-panneau" x1="0" y1="516" x2="0" y2="830" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#081a3e" stop-opacity="0"/><stop offset="0.5" stop-color="#081a3e"/><stop offset="1" stop-color="#040b22"/></linearGradient>
+<linearGradient id="fond-elite-cadre" x1="0" y1="0" x2="600" y2="830" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffffff"/><stop offset="0.22" stop-color="#b8c3d3"/><stop offset="0.45" stop-color="#55627a"/><stop offset="0.7" stop-color="#e8edf5"/><stop offset="1" stop-color="#8d99ad"/></linearGradient>
+<linearGradient id="fond-elite-bande" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#c9d3e4"/></linearGradient>
+<linearGradient id="fond-elite-reflet" x1="0" y1="0" x2="1" y2="0.62"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.42" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.13"/><stop offset="0.58" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<radialGradient id="fond-elite-halo" cx="300" cy="280" r="230" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#5d8fe0" stop-opacity="0.38"/><stop offset="1" stop-color="#5d8fe0" stop-opacity="0"/></radialGradient>
+<radialGradient id="fond-elite-vignette" cx="300" cy="380" r="520" gradientUnits="userSpaceOnUse"><stop offset="0.55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.55"/></radialGradient>
+<linearGradient id="fond-elite-fonduPhoto" x1="0" y1="52" x2="0" y2="516" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="0.8" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<mask id="fond-elite-masquePhoto"><rect x="0" y="0" width="600" height="516" fill="url(#fond-elite-fonduPhoto)"/></mask>
+<pattern id="fond-elite-cordage" width="14" height="14" patternUnits="userSpaceOnUse">
+<path stroke="#cfe0ff" stroke-width="1.1" stroke-linecap="round" d="M3.5 0V1.2999999999999998M3.5 5.7V14M10.5 0V14"/>
+<path stroke="#cfe0ff" stroke-width="1.1" stroke-linecap="round" d="M0 3.5H14M0 10.5H1.2999999999999998M5.7 10.5H8.3M12.7 10.5H14"/>
+</pattern>
+<pattern id="fond-elite-mailles" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+<path d="M0 0H9M0 0V9" stroke="#ffffff" stroke-width="0.7"/></pattern>
+<filter id="fond-elite-ombre" x="-20%" y="-30%" width="140%" height="160%">
+<feDropShadow dx="0" dy="1.6" stdDeviation="1.8" flood-color="#000" flood-opacity="0.55"/></filter>
+<filter id="fond-elite-sable" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+<feTurbulence type="turbulence" baseFrequency="1.7" numOctaves="1" seed="4"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1.4 0 0 0 0"/>
+<feComponentTransfer><feFuncA type="discrete" tableValues="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1"/></feComponentTransfer>
+<feComposite in2="SourceAlpha" operator="in"/></filter><linearGradient id="fond-elite-cone" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e4edff" stop-opacity="0.22"/><stop offset="1" stop-color="#e4edff" stop-opacity="0"/></linearGradient><filter id="fond-elite-flou" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="7"/></filter><linearGradient id="fond-elite-traj" x1="-12" y1="132" x2="352" y2="70" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#d7f34a" stop-opacity="0"/><stop offset="0.55" stop-color="#d7f34a" stop-opacity="0.35"/><stop offset="1" stop-color="#d7f34a" stop-opacity="0.95"/></linearGradient><filter id="fond-elite-lueurTraj" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.4" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<g clip-path="url(#fond-elite-clip)">
+<path d="M300 0C390 0 475 14 528.4 45.3C538 72 572 88.4 600 88.4L600 708C600 745 586 760 558 766C470 786.5 350 804 300 829.5C250 804 130 786.5 42 766C14 760 0 745 0 708L0 88.4C28 88.4 62 72 71.6 45.3C125 14 210 0 300 0Z" fill="url(#fond-elite-fond)"/>
+<g clip-path="url(#fond-elite-haut)">
+<rect width="600" height="175.52" fill="url(#fond-elite-mur)"/>
+<g mask="url(#fond-elite-masqueCourt)">
+<path d="M-3420 515.96L4020 515.96L1145.45 174.52L-545.45 174.52Z" fill="#123c78"/><path d="M-43.17 515.96L643.17 515.96L401.02 204.17L198.98 204.17Z" fill="#1b5bab"/>
+<path d="M-43.17 515.96L643.17 515.96L401.02 204.17L198.98 204.17Z" fill="#000" filter="url(#fond-elite-sable)" opacity=".16"/>
+<path d="M-43.17 515.96L-40.07 515.96L199.89 204.17L198.98 204.17ZM640.07 515.96L643.17 515.96L401.02 204.17L400.11 204.17ZM41.77 515.96L44.87 515.96L224.9 204.17L223.98 204.17ZM555.13 515.96L558.23 515.96L376.02 204.17L375.1 204.17ZM198.38 204.94L401.62 204.94L401.02 204.17L198.98 204.17ZM188.1 267.9L411.9 267.9L411.41 267.05L188.59 267.05ZM298.45 515.96L301.55 515.96L300.68 267.05L299.32 267.05ZM299.54 205.88L300.46 205.88L300.46 204.94L299.54 204.94Z" fill="#f2f6ff" opacity="0.82"/>
+</g>
+<rect y="173.52" width="600" height="2.2" fill="#f2f6ff" opacity=".12"/>
+</g>
+<path d="M70 -10L104 -10L300 234.52272727272728L40 234.52272727272728ZM530 -10L496 -10L300 234.52272727272728L560 234.52272727272728Z" fill="url(#fond-elite-cone)" filter="url(#fond-elite-flou)" style="mix-blend-mode:screen"/><g filter="url(#fond-elite-lueurTraj)">
+<path d="M-12 132C84 84 214 54 352 70" fill="none" stroke="url(#fond-elite-traj)" stroke-width="3" stroke-linecap="round"/>
+<circle cx="352" cy="70" r="8.5" fill="#d7f34a"/>
+<path d="M346.7 63.6Q350.8 70 346.7 76.4M357.3 63.6Q353.2 70 357.3 76.4" fill="none" stroke="#fff" stroke-opacity=".85" stroke-width="1.1"/>
+</g>
+<rect width="600" height="516" fill="url(#fond-elite-halo)"/>
+
+
+<rect y="516" width="600" height="314" fill="url(#fond-elite-panneau)"/>
+<rect y="516" width="600" height="314" fill="url(#fond-elite-cordage)" opacity="0.08"/>
+<rect y="521" width="600" height="16" fill="url(#fond-elite-mailles)" opacity=".14"/>
+<rect y="512" width="600" height="9" fill="url(#fond-elite-bande)"/>
+<rect y="512" width="600" height="1.4" fill="#fff" opacity=".7"/>
+<rect y="521" width="600" height="5" fill="#000" opacity=".28"/>
+<rect width="600" height="830" fill="url(#fond-elite-vignette)"/>
+
+<rect width="600" height="830" fill="url(#fond-elite-reflet)" style="mix-blend-mode:soft-light"/>
+<path d="M300 0C390 0 475 14 528.4 45.3C538 72 572 88.4 600 88.4L600 708C600 745 586 760 558 766C470 786.5 350 804 300 829.5C250 804 130 786.5 42 766C14 760 0 745 0 708L0 88.4C28 88.4 62 72 71.6 45.3C125 14 210 0 300 0Z" fill="none" stroke="url(#fond-elite-cadre)" stroke-width="13"/>
+<path d="M300 6.5C390 6.5 473.7 20.5 526.13 52.13C536.05 77.85 568.75 94.9 593.5 94.9L593.5 706.05C593.5 741.1 581.45 753.83 554.1 759.83C470 780 350 797.17 300 822.02C250 797.17 130 780 45.9 759.83C18.55 753.83 6.5 741.1 6.5 706.05L6.5 94.9C31.25 94.9 63.95 77.85 73.88 52.13C126.3 20.5 210 6.5 300 6.5Z" fill="none" stroke="#000" stroke-opacity=".35" stroke-width="1"/>
+<path d="M300 9.5C390 9.5 473.1 23.5 525.08 55.27C535.15 80.55 567.25 97.9 590.5 97.9L590.5 705.15C590.5 739.3 579.35 750.98 552.3 756.98C470 777 350 794.02 300 818.58C250 794.02 130 777 47.7 756.98C20.65 750.98 9.5 739.3 9.5 705.15L9.5 97.9C32.75 97.9 64.85 80.55 74.92 55.27C126.9 23.5 210 9.5 300 9.5Z" fill="none" stroke="url(#fond-elite-cadre)" stroke-width="1.3" opacity="0.8"/><path d="M300 14C390 14 472.2 28 523.5 60C533.8 84.6 565 102.4 586 102.4L586 703.8C586 736.6 576.2 746.7 549.6 752.7C470 772.5 350 789.3 300 813.4C250 789.3 130 772.5 50.4 752.7C23.8 746.7 14 736.6 14 703.8L14 102.4C35 102.4 66.2 84.6 76.5 60C127.8 28 210 14 300 14Z" fill="none" stroke="url(#fond-elite-cadre)" stroke-width="0.6" opacity="0.5"/>
+
+</g>
+
+
+</svg>
